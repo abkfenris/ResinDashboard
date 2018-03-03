@@ -8,20 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		3840DB11203211070067C7EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3840DB10203211070067C7EA /* AppDelegate.swift */; };
-		3840DB13203211070067C7EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3840DB12203211070067C7EA /* ViewController.swift */; };
 		3840DB16203211070067C7EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3840DB14203211070067C7EA /* Main.storyboard */; };
 		3840DB18203211070067C7EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3840DB17203211070067C7EA /* Assets.xcassets */; };
 		3840DB1B203211070067C7EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3840DB19203211070067C7EA /* LaunchScreen.storyboard */; };
+		386A20FA20437D2D00884310 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386A20F920437D2D00884310 /* SettingsTableViewController.swift */; };
+		386A20FC204386D200884310 /* SingleDeviceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386A20FB204386D200884310 /* SingleDeviceTableViewController.swift */; };
+		386D96FB203B53A800A264D1 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386D96FA203B53A800A264D1 /* Device.swift */; };
+		386D96FD203B575600A264D1 /* Applications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386D96FC203B575600A264D1 /* Applications.swift */; };
+		386D96FF203B596400A264D1 /* ResinAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386D96FE203B596400A264D1 /* ResinAPIManager.swift */; };
+		386D9703203F4FE200A264D1 /* AlertControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386D9702203F4FE200A264D1 /* AlertControllers.swift */; };
+		386D9706203F50C300A264D1 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386D9705203F50C300A264D1 /* SplitViewController.swift */; };
+		386D970A203F548700A264D1 /* ApplicationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386D9709203F548700A264D1 /* ApplicationTableViewController.swift */; };
+		38DB420C204356C3006B17F6 /* DeviceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DB420B204356C3006B17F6 /* DeviceCollectionViewCell.swift */; };
+		38DB420E204356D6006B17F6 /* ApplicationCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DB420D204356D6006B17F6 /* ApplicationCollectionReusableView.swift */; };
+		38DB4236204370C3006B17F6 /* ApplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DB4235204370C3006B17F6 /* ApplicationViewController.swift */; };
+		38DB42382043754C006B17F6 /* DeviceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DB42372043754C006B17F6 /* DeviceTableViewController.swift */; };
+		38DB423E204378C1006B17F6 /* Segues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DB423D204378C1006B17F6 /* Segues.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3840DB0D203211070067C7EA /* ResinDashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResinDashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3840DB10203211070067C7EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3840DB12203211070067C7EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3840DB15203211070067C7EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3840DB17203211070067C7EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3840DB1A203211070067C7EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3840DB1C203211070067C7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		386A20F920437D2D00884310 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		386A20FB204386D200884310 /* SingleDeviceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleDeviceTableViewController.swift; sourceTree = "<group>"; };
+		386D96FA203B53A800A264D1 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		386D96FC203B575600A264D1 /* Applications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Applications.swift; sourceTree = "<group>"; };
+		386D96FE203B596400A264D1 /* ResinAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResinAPIManager.swift; path = ResinDashboard/Resin/ResinAPIManager.swift; sourceTree = SOURCE_ROOT; };
+		386D9702203F4FE200A264D1 /* AlertControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertControllers.swift; sourceTree = "<group>"; };
+		386D9705203F50C300A264D1 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		386D9709203F548700A264D1 /* ApplicationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationTableViewController.swift; sourceTree = "<group>"; };
+		38DB420B204356C3006B17F6 /* DeviceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCollectionViewCell.swift; sourceTree = "<group>"; };
+		38DB420D204356D6006B17F6 /* ApplicationCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCollectionReusableView.swift; sourceTree = "<group>"; };
+		38DB4235204370C3006B17F6 /* ApplicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationViewController.swift; sourceTree = "<group>"; };
+		38DB42372043754C006B17F6 /* DeviceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTableViewController.swift; sourceTree = "<group>"; };
+		38DB423D204378C1006B17F6 /* Segues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segues.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +78,58 @@
 		3840DB0F203211070067C7EA /* ResinDashboard */ = {
 			isa = PBXGroup;
 			children = (
+				38DB423C204378B7006B17F6 /* Misc */,
+				38DB420A20434F6B006B17F6 /* Cells */,
+				386D9704203F509100A264D1 /* Controllers */,
+				386D96F9203B539900A264D1 /* Models */,
 				3840DB10203211070067C7EA /* AppDelegate.swift */,
-				3840DB12203211070067C7EA /* ViewController.swift */,
 				3840DB14203211070067C7EA /* Main.storyboard */,
 				3840DB17203211070067C7EA /* Assets.xcassets */,
 				3840DB19203211070067C7EA /* LaunchScreen.storyboard */,
 				3840DB1C203211070067C7EA /* Info.plist */,
 			);
 			path = ResinDashboard;
+			sourceTree = "<group>";
+		};
+		386D96F9203B539900A264D1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				386D96FA203B53A800A264D1 /* Device.swift */,
+				386D96FC203B575600A264D1 /* Applications.swift */,
+				386D96FE203B596400A264D1 /* ResinAPIManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		386D9704203F509100A264D1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				386D9702203F4FE200A264D1 /* AlertControllers.swift */,
+				386D9705203F50C300A264D1 /* SplitViewController.swift */,
+				386D9709203F548700A264D1 /* ApplicationTableViewController.swift */,
+				38DB4235204370C3006B17F6 /* ApplicationViewController.swift */,
+				38DB42372043754C006B17F6 /* DeviceTableViewController.swift */,
+				386A20F920437D2D00884310 /* SettingsTableViewController.swift */,
+				386A20FB204386D200884310 /* SingleDeviceTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		38DB420A20434F6B006B17F6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				38DB420B204356C3006B17F6 /* DeviceCollectionViewCell.swift */,
+				38DB420D204356D6006B17F6 /* ApplicationCollectionReusableView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		38DB423C204378B7006B17F6 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				38DB423D204378C1006B17F6 /* Segues.swift */,
+			);
+			path = Misc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +204,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3840DB13203211070067C7EA /* ViewController.swift in Sources */,
+				386D9703203F4FE200A264D1 /* AlertControllers.swift in Sources */,
+				386A20FC204386D200884310 /* SingleDeviceTableViewController.swift in Sources */,
+				386A20FA20437D2D00884310 /* SettingsTableViewController.swift in Sources */,
+				386D970A203F548700A264D1 /* ApplicationTableViewController.swift in Sources */,
+				38DB420E204356D6006B17F6 /* ApplicationCollectionReusableView.swift in Sources */,
+				386D9706203F50C300A264D1 /* SplitViewController.swift in Sources */,
+				386D96FD203B575600A264D1 /* Applications.swift in Sources */,
+				38DB42382043754C006B17F6 /* DeviceTableViewController.swift in Sources */,
+				38DB4236204370C3006B17F6 /* ApplicationViewController.swift in Sources */,
+				38DB423E204378C1006B17F6 /* Segues.swift in Sources */,
+				386D96FB203B53A800A264D1 /* Device.swift in Sources */,
+				386D96FF203B596400A264D1 /* ResinAPIManager.swift in Sources */,
 				3840DB11203211070067C7EA /* AppDelegate.swift in Sources */,
+				38DB420C204356C3006B17F6 /* DeviceCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
